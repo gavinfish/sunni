@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+'use strict'
+const pkg = require('../package');
+require('colorful').toxic();
+
+if (!process.argv[2]) {
+  console.log(pkg.name.yellow + '@' + pkg.version.cyan);
+  console.log("Description: " + pkg.description)
+  console.log("Usage: " + pkg.name.yellow + " [cityName]");
+  console.log("Note: you can use Chinese or pinyin, such as 江阴 or jiangyin");
+  return;
+}
+
+const sunny = require('..')(process.argv[2]);
+
+
