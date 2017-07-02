@@ -1,18 +1,18 @@
 {
-  "name": "sunny",
-  "version": "1.0.0",
+  "name": "sunni",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "drfish",
   "description": "CLI Weather Query Tool",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gavinfish/sunny"
+    "url": "https://github.com/gavinfish/sunni"
   },
   "devDependencies": {},
   "scripts": {},
   "bin": {
-    "sunny": "bin/sunny"
+    "sunny": "bin/sunni"
   },
   "dependencies": {
     "colorful": "^2.1.0",
