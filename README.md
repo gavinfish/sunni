@@ -9,7 +9,7 @@ Sunni is a CLI tool to query the weather.
 
 Here is what it looks like:
 
-![sunni](http://ode4i8yi9.bkt.clouddn.com/sunni.gif)
+![sunni](./sunni.gif)
 
 ## Install
 
